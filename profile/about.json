@@ -1,0 +1,17 @@
+{
+    "about": "As a software engineer, my expertise lies in the MERN stack, MySQL, and CSS libraries. I have a strong commitment to excellence and dedication to my craft, excelling in both backend and frontend development. My portfolio showcases a diverse range of projects, each demonstrating my proficiency in creating robust, scalable, and user-friendly applications.",
+    "brings": "Here’s what I can bring to your project:",
+    "fornt": "Frontend Development: Top-notch experience and pixel perfect website pages for your frontend. Skilled in React for creating dynamic, responsive, and user-friendly interfaces.",
+    "back": "Backend Development: Skilled in Node.js and Nest.js for server-side development, ensuring smooth functionality and high performance.",
+    "database": "Database Management: Extensive experience of working with databases which include MongoDB and MySQL, offering effective data management.",
+    "api": "RESTful API: Expertise in designing and implementing optimized RESTful APIs for seamless communication.",
+    "debug": "Debugging: Ability to quickly diagnose DB performance issues and identify functional and UI related bugs.",
+    "third": "Third Party Integrations: Skilled in handling third party integrations like Revenue Cat, Active Campaign and web flows to ensure smooth functioning of the product.",
+    "imageSource": "images/about/img2.png",
+    "newf": "My frontend skills include proficiency in React and Vue.js, allowing me to create dynamic and responsive user interfaces. I am skilled in using CSS frameworks like Bootstrap and Tailwind CSS to create visually appealing designs. My projects often include features like authentication, real-time updates using WebSockets, and integration with third-party APIs.",
+    "newb": "In my backend work, I leverage my knowledge of Node.js and Express to build efficient and secure APIs. I have experience with database design and optimization, ensuring that applications perform well even with large datasets.",
+    "pas": "I am passionate about software development and continuously strive to improve my skills. I am a quick learner and enjoy tackling new challenges. My goal is to leverage my expertise to create innovative and impactful solutions that meet the needs of my clients." ,
+    "code": "Quality Code:  In addition to delivering a high-quality end product, I prioritize code quality.",
+    "com" : "Reliable communication: Will always keep you involved and updated on your project status."
+    
+}
