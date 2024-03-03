@@ -9,7 +9,7 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    // margi: 10,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
@@ -17,7 +17,7 @@ const styles = {
     fontWeight: 500,
   },
   introImageContainer: {
-    margin: 10,
+    // margin: 10,
     paddingTop: 20,
     justifyContent: 'center',
     alignItems: 'start',
@@ -47,7 +47,7 @@ function About(props) {
   return (
     <>
       <Header title={header} />
-      <div className="section-content-container">
+      <div className="about-content-container">
         <Container>
           {data
             ? (

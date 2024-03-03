@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
@@ -41,9 +41,9 @@ const Projects = (props) => {
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (
-                  <Fade key={project.title}>
+                  <div key={project.title}>
                     <ProjectCard project={project} />
-                  </Fade>
+                  </div>
                 ))}
               </Row>
 

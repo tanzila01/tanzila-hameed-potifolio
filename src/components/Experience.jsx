@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import Fade from 'react-reveal';
+// import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -56,7 +56,7 @@ function Experience(props) {
                 lineColor={theme.timelineLineColor}
               >
                 {data.map((item) => (
-                  <Fade>
+                  <div>
                     <TimelineItem
                       key={item.title + item.dateText}
                       dateText={item.dateText}
@@ -95,7 +95,7 @@ function Experience(props) {
                         ))}
                       </ul>
                     </TimelineItem>
-                  </Fade>
+                  </div>
                 ))}
               </Timeline>
             </Container>
