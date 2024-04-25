@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 // import Fade from 'react-reveal';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -22,21 +22,32 @@ const styles = {
   introTexts: {
     whiteSpace: 'pre-wrap',
     fontSize: '1.4em',
-    marginBottom: '60px',
+    // marginBottom: '60px',
+    height: '60px',
   },
   introTextContainers: {
-    margin: 5,
+    marginTop: '-95px',
+    // '@media (max-width: 768px)': {
+    //   marginTop: '-30%',
+    // },
+    // '@media (min-width: 769px)': {
+    //   marginTop: '-30%',
+    // },
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
-    fontSize: '0.8em',
+    fontSize: '1.1em',
     fontWeight: 500,
+    width: '117%',
+    scale: '0.7',
   },
   introContainers: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'baseline',
     marginTop: 4,
+    marginLeft: '-7%',
+    marginBottom: '-28%',
   },
   there: {
     width: '90px',
@@ -87,16 +98,17 @@ function Skills(props) {
     <>
       <Header title={header} />
       {data ? (
-        <div>
+        <div className="idfier">
           <div className="section-content-container">
-            <Container>
-              <div style={{ display: 'flex' }}>
-                <div style={{ width: '60%', marginTop: '0px' }}>
+            <Container style={{ padding: '0px', margin: '0px' }}>
+              <Row xs={1} sm={1} md={2} lg={2} style={{ display: 'flex', margin: '0px', padding: '0px' }}>
+                {/* <div style={{ width: '60%', marginTop: '0px' }}> */}
+                <Row style={{ padding: '0px', margin: '0px' }}>
                   {datas
                     ? (
-                      <div>
+                      <div style={{ padding: '0px', margin: '0px' }}>
                         <div style={styles.introContainers}>
-                          <h4>{datas.brings}</h4>
+                          <h4 style={{ paddingLeft: '17%' }}>{datas.brings}</h4>
                           <div style={styles.introTextContainers}>
                             {/* {renderSkillsIntro(datas.brings)} */}
                             {renderSkillsIntro(datas.fornt)}
@@ -115,11 +127,13 @@ function Skills(props) {
                       </div>
                     )
                     : <FallbackSpinner />}
-                </div>
-                <div style={{ width: '40%', marginLeft: '30px' }}>
+                </Row>
+                {/* </div> */}
+                {/* <div style={{ width: '40%', marginLeft: '30px' }}> */}
+                <Row>
                   {renderIntro(data.intro)}
                   {data.skills?.map((rows) => (
-                    <div key={rows.title} style={{ display: 'flex', paddingLeft: '78px', marginTop: '20px' }}>
+                    <div key={rows.title} style={{ display: 'flex', paddingLeft: '23%', marginTop: '20px' }}>
                       <br />
                       {/* <h3 style={{ fontSize: '1.2em' }}>{rows.title}</h3> */}
                       {rows.items.map((item) => (
@@ -134,25 +148,9 @@ function Skills(props) {
                       ))}
                     </div>
                   ))}
-                </div>
-              </div>
-              {/* {renderSkillsIntro(data.intro)}
-              {data.skills?.map((rows) => (
-                <div key={rows.title}>
-                  <br />
-                  <h3>{rows.title}</h3>
-                  {rows.items.map((item) => (
-                    <div key={item.title} style={{ display: 'inline-block' }}>
-                      <img
-                        style={styles.iconStyle}
-                        src={item.icon}
-                        alt={item.title}
-                      />
-                      <p>{item.title}</p>
-                    </div>
-                  ))}
-                </div>
-              ))} */}
+                </Row>
+                {/* </div> */}
+              </Row>
             </Container>
           </div>
         </div>
