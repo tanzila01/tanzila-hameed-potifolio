@@ -1,6 +1,34 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/mm1.png",
+            "title": "Miracle Morning Routine App",
+            "bodyText": "- Developed Backend of the App, using Nest.Js, MySQL and TypeORM and Created Admin Portal in React Js and tailwind.\n - Leveraged technologies such as Stripe, RevenueCat, ActiveCampaign and AppsFlyer to streamline payment flows and ensure reliable revenue tracking.\n - Developed robust backend APIs , enabling features like meditations, journaling, affirmations, tracks, activity tracking and in-app inbox announcements.\n - Created scripts to automate new audio/visual data uploads to the Database and regulate data on Amazone S3 bucket.",
+            "tags" : [
+                "Nest Js",
+                "React JS",
+                "MySQL",
+                "TypeORM",
+                "Stripe",
+                "RevenueCat",
+                "ActiveCampaign",
+                "AppsFlyer",
+                "AWS S3"
+            ]
+        },
+        {
+            "image" : "images/projects/pbr.png",
+            "title": "Pause Breathe Reflect App",
+            "bodyText": "- Developed Backend of the App, using Nest.Js, MySQL and TypeORM.\n - Developed Optimized APIs to seamlessly integrate features such as Breathworks, meditation music streaming with category filters and journaling.\n - Implemented push notifications for success celebration messages and app updates.\n - Handled package subscriptions with Revenue Cat and kept users data integrated",
+            "tags" : [
+                "Nest Js",
+                "MySQL",
+                "TypeORM",
+                "RevenueCat",
+                "ActiveCampaign"
+            ]
+        },
+        {
             "image" : "images/projects/LAMA clothing store.jpg",
             "title": "LAMA -  Clothing Store",
             "bodyText": "- A Clothing Store web app made using **React JS** and **Bootstrap** for frontend and **MongoDB**, **Node Js** and **Express** for back. People can view items and put in the favorites section.\n - Includes features of checkout and payment precessing.\n - It can offer discounts and sale offers to valued customer",
