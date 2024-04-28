@@ -48,6 +48,7 @@ function Home() {
           /> */}
         </div>
         <p style={styles.nameStyle}>{data?.name}</p>
+        {/* <p style={styles.nameStyle}>{data?.contact}</p> */}
         <Social />
       </div>
     </div>

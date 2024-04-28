@@ -1,16 +1,12 @@
 {
     "social": [
         {
-            "network" : "linkedin",
-            "href": "https://www.linkedin.com/in/tanzila-hameed-282588220/"
+            "network" : "upwork",
+            "href": "https://www.upwork.com/freelancers/~013f83ead82eff2d7b"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/tanzila01"
-        },
-        {
-            "network" : "email",
-            "href": "mailto:tanzilahameed0@gmail.com"
+              "network" : "github",
+              "href": "https://github.com/tanzila01"
         }
     ]
 }

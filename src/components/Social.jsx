@@ -9,6 +9,9 @@ const styles = {
     marginRight: 10,
     marginBottom: 10,
   },
+  nameStyle: {
+    fontSize: '1.5em',
+  },
 };
 
 function Social() {
@@ -26,6 +29,7 @@ function Social() {
 
   return (
     <div className="social">
+      <p style={styles.nameStyle}>Contact me on Upwork.</p>
       {data ? data.social.map((social) => (
         <SocialIcon
           key={social.network}
@@ -42,3 +46,16 @@ function Social() {
 }
 
 export default Social;
+
+// {
+//   "network" : "linkedin",
+//   "href": "https://www.linkedin.com/in/tanzila-hameed-282588220/"
+// },
+// {
+//   "network" : "github",
+//   "href": "https://github.com/tanzila01"
+// },
+// {
+//   "network" : "email",
+//   "href": "mailto:tanzilahameed0@gmail.com"
+// },
