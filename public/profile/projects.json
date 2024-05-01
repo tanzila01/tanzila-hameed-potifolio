@@ -37,7 +37,8 @@
                 "StoryBook",
                 "Bootstrap",
                 "Styled-Components",
-                "React Charts"
+                "React Charts",
+                "Data Processing"
             ]
         },
         {
@@ -80,8 +81,8 @@
             ]
         },
         {
-            "image" : "images/projects/reci.png",
-            "title": "Food Recipes and Orders",
+            "image" : "images/projects/food order1.png",
+            "title": "Online Food Delivery Website",
             "bodyText": "- Web App that allow users to cook through recipes built using **React**, **Node Js**, **MongoDB** and **React-Bootstrap**.\n - Offers food recipies to users with extensive details.\n - Allow users to select throught categories and apply filters to find desired recipe. \n - Allow users to add their own food to the collection.",
             "links": [
                 {
