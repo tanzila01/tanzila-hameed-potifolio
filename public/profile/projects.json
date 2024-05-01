@@ -19,7 +19,7 @@
         {
             "image" : "images/projects/pbr.png",
             "title": "Pause Breathe Reflect App",
-            "bodyText": "- Developed Backend of the App, using Nest.Js, MySQL and TypeORM.\n - Developed Optimized APIs to seamlessly integrate features such as Breathworks, meditation music streaming with category filters and journaling.\n - Implemented push notifications for success celebration messages and app updates.\n - Handled package subscriptions with Revenue Cat and kept users data integrated",
+            "bodyText": "- Contributed to Backend development of the App, using Nest.Js, MySQL and TypeORM and third-party integrations.\n - Developed Optimized APIs to seamlessly integrate features such as Breathworks, meditation music streaming with category filters and journaling.\n - Implemented in-app push notifications for success celebration messages and app updates alerts.\n - Handled package subscriptions with Revenue Cat and kept users data integrated on the App's database.",
             "tags" : [
                 "Nest Js",
                 "MySQL",
@@ -29,8 +29,20 @@
             ]
         },
         {
+            "image" : "images/projects/Stock-Market1.jpg",
+            "title": "Stock Market Analytics Platform",
+            "bodyText": "- Developed frontend using React, Storybook, Bootstrap, and styled-components.\n - integrated UI/UX design graphs such as bar and line graphs for visual representation of data.\n - Successfully implemented stock filtering functionality on the automated scraped data.\n - converted the project from JavaScript to TypeScript for enhanced maintainability.\n - Utilized Storybook for isolated UI component visualization.\n - Developed test suites, validating the functionality and behavior of components.",
+            "tags" : [
+                "React",
+                "StoryBook",
+                "Bootstrap",
+                "Styled-Components",
+                "React Charts"
+            ]
+        },
+        {
             "image" : "images/projects/LAMA clothing store.jpg",
-            "title": "LAMA -  Clothing Store",
+            "title": "E-commerce - Clothing Store",
             "bodyText": "- A Clothing Store web app made using **React JS** and **Bootstrap** for frontend and **MongoDB**, **Node Js** and **Express** for back. People can view items and put in the favorites section.\n - Includes features of checkout and payment precessing.\n - It can offer discounts and sale offers to valued customer",
             "links": [
                 {
@@ -69,7 +81,7 @@
         },
         {
             "image" : "images/projects/reci.png",
-            "title": "Food Recipes",
+            "title": "Food Recipes and Orders",
             "bodyText": "- Web App that allow users to cook through recipes built using **React**, **Node Js**, **MongoDB** and **React-Bootstrap**.\n - Offers food recipies to users with extensive details.\n - Allow users to select throught categories and apply filters to find desired recipe. \n - Allow users to add their own food to the collection.",
             "links": [
                 {
